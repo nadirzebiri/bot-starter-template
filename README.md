@@ -19,8 +19,8 @@ To get started, follow these steps:
 
 ```
 TOKEN=your_bot_token_here
-CLIENT_ID=your_bot_token_here
-DEV_GUILD_ID=your_guild_id_here
+CLIENT_ID=your_bot_client_id_here
+DEV_GUILD_ID=your_dev_guild_id_here
 INVITE_LINK=your_invite_link_here
 ```
 
@@ -43,9 +43,9 @@ Registering slash commands globally
 
 Here are the commands that the bot currently supports:
 
-- `!ping`: The bot will respond with "Pong!".
-- `!server`: The bot will provide information about the server.
-- `!user`: The bot will provide information about the user.
+- `/ping`: Responds with "Pong!".
+- `/server`: Provides information about the server.
+- `/user`: Provides information about the user.
 
 ## License
 
