@@ -20,8 +20,6 @@ To get started, follow these steps:
 ```
 TOKEN=your_bot_token_here
 CLIENT_ID=your_bot_client_id_here
-DEV_GUILD_ID=your_dev_guild_id_here
-INVITE_LINK=your_invite_link_here
 ```
 
 Replace the placeholders with the actual values for your bot, which you can obtain from the [Discord Developer Portal](https://discord.com/developers/).
@@ -33,11 +31,8 @@ Replace the placeholders with the actual values for your bot, which you can obta
 Run the bot
 `npm start`
 
-Registering slash commands in the development guild
-`npm dev-deploy`
-
 Registering slash commands globally
-`npm global-deploy`
+`npm deploy`
 
 ## Commands
 

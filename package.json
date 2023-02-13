@@ -8,7 +8,6 @@
 	},
 	"scripts": {
 		"start": "node index.js",
-		"global-deploy": "node global-deploy-commands.js",
-		"dev-deploy": "node dev-deploy-commands.js"
+		"deploy": "node deploy-commands.js"
 	}
 }
